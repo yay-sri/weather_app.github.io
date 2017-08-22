@@ -1,0 +1,191 @@
+@charset "UTF-8";
+html, body, form, fieldset, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, dl {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: auto;
+    background-image: url("https://adc3ef35f321fe6e725a-fb8aac3b3bf42afe824f73b606f0aa4c.ssl.cf1.rackcdn.com/propertyimages/1214/hamilton-town-center-01.jpg");
+    background-repeat: repeat-y;
+    background-size:  cover;
+    background-position: top;
+    margin: 0 auto;
+    overflow-x: hidden;
+    position: relative;
+}
+#textContent {
+  background: none repeat scroll 0 0 rgba(228,228,228,0.4);
+  margin:20px;
+  padding: 15px;
+  width: 100%;
+}
+#intro {
+  text-align: center;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 30px;
+  text-decoration:none;
+}
+.workarea {
+    width:900px;
+    margin:0px auto;
+}
+.tempbox {
+  background: rgba(228,228,228,0.7);
+}
+#header {
+    width:816px;
+    height: auto;
+    position:relative;
+    margin:0px auto;
+}
+.results {
+  padding-bottom: 30px;
+}
+.clearboth{
+    clear: both;
+}
+.content {
+    width: 100%;
+    padding: 20px 0px;
+}
+.lighterbox {
+  background: rgba(228,228,228,0.6);
+}
+.leftbar {
+  float:left;
+  padding:20px;
+
+}
+.rightbar {
+  float: right;
+  padding: 20px;
+}
+.boxshad{
+  -webkit-box-shadow:0 0 10px #e7b912;
+  -moz-box-shadow:0 0 10px #e7b912;
+  box-shadow:0 0 10px #e7b912;
+}
+.padbox{
+  padding: 30px;
+  margin: 15px;
+}
+.errorbox{
+  -webkit-box-shadow:0 0 10px red;
+  -moz-box-shadow:0 0 10px red;
+  box-shadow:0 0 10px red;
+  padding: 30px;
+  text-align: center;
+}
+#forecast ul {
+    margin-left:0px;
+    float:left;
+    margin-top:0px;
+    margin-bottom:20px;
+    position:relative;
+    height: auto;
+}
+
+#forecast ul li {
+    float:left;
+    list-style-type:none;
+    padding: 10px;
+    width: 300px;
+}
+.heading {
+  padding: 10px;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 25px;
+}
+.lightertext{
+  color: rgba(100,100,100,1);
+  font: italic bold 18px;
+}
+#today{
+  height: 200px;
+  width: 200px;
+  border-radius: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.todayDate {
+  color: rgba(131,134,134,0.75);
+  font: italic bold 18px 'Comic Sans MS';
+  display: inline-block;
+  /* transform: rotate(-15deg); */
+  text-align: center;
+  line-height: 1.8;
+  width:100%;
+}
+.icnwtrlarge{
+  width: 120px;
+  height:120px;
+  display: inline-block;
+}
+.icnwtrsmall {
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  transform: scale(0.6,0.6);
+}
+.cloudywtr {
+  background: url(../images/weather_icons.png) -458px -11px;
+}
+.snowwtr {
+  background: url(../images/weather_icons.png) -12px -309px;
+}
+.normalwtr {
+  background: url(../images/weather_icons.png) -458px -309px;
+}
+.thunderwtr {
+  background: url(../images/weather_icons.png) -160px -605px;
+}
+.todaydesc {
+  font: italic bold 18px 'Comic Sans MS';
+  color: rgba(109,107,111,0.8);
+  display: block;
+  padding-top: 5px;
+  text-align: center;
+}
+.selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.floatleft {
+  float:left;
+}
+.floatright{
+  float:right;
+}
+.clearfloat {
+  clear:both;
+}
+.todaysegment {
+  height: 120px;
+  width: 120px;
+}
+.weatherinfo {
+  width: 100%;
+  text-align: center;
+}
+.weathertemp {
+  margin-left: 120px;
+  height: 120px;
+  font: italic bold 22px 'Comic Sans MS';
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+.forecastbox {
+  display: flex;
+  align-items: center;
+}
+.forecastitems {
+  flex-grow: 1;
+  flex-basis: 20px;
+}
+.poscenter {
+  width: 100%;
+  text-align: center;
+  line-height: 1.5;
+}

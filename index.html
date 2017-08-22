@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" />
+	<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+</head>
+<body>
+	<main class="workarea">
+	<section id="textContent">
+		<header id="header">
+			<div id="intro">Sri's Weather App</div>
+		</header> <!-- header -->
+		<section class="content" id="home">
+			<!-- selection section -->
+			<section class="lighterbox selector">
+				<div class="leftbar heading">
+					Choose City:
+				</div>
+				<div class="leftbar">
+					<select id="city">
+						<option value="2502265">Sunnyvale, CA</option>
+						<option value="2487889">San Diego, CA</option>
+						<option value="2423945">Honolulu, HI</option>
+						<option value="2391279">Denver, CO</option>
+						<option value="2487796">San Antonio, TX</option>
+						<option value="2411084">Glendale, AZ</option>
+						<option value="2450022">Miami, FL</option>
+						<option value="2459115">New York, NY</option>
+					</select>
+				</div>
+				<div class="clearboth"></div>
+		 </section>
+		 <!-- results section -->
+			<section class="lighterbox results">
+				<div class="errorbox" id="error"> Sorry,Something went wrong...it shouldn't but did!....Have an icecream :)</div>
+				<div class="heading"></div>
+				<div id ="today" class="boxshad padbox tempbox">
+				</div>
+				<div id = "forecast" class="padbox tempbox">
+					<ul id="ftlist">
+						<li id="firstFive"></li>
+						<li id="nextFive"></li>
+					</ul>
+				<div>
+				<div class="clearboth"></div>
+			</section>
+    </section><br/>
+	  <footer id="footer">
+    </footer>
+	</section>
+	</main> <!-- workarea -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
